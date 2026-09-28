@@ -11,8 +11,10 @@
     <description>REST API automation with Serenity BDD, Cucumber and Screenplay</description>
 
     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>25</maven.compiler.release>
         <serenity.version>5.3.11</serenity.version>
         <junit.platform.suite.version>1.11.4</junit.platform.suite.version>
     </properties>
